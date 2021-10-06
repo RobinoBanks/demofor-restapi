@@ -1,0 +1,28 @@
+COMMAND PROMPT SET-UP
+- Navigate to folder
+  "cd exampleFolder"
+
+- With Node installed, initialize npm models into the system
+  "npm init"
+- Fill information as prompted by install
+- Entry point is most important, I used "Script.js"
+
+- Install Express.Json 
+- Express is a web framework used with Node.js which allows creation of REST API
+  "npm i express"
+
+- Install Joi library, used for information validation
+  "npm i joi"
+
+- Install Nodemon
+- With nodemon, server will not be need to be restarted when changes are made
+  "npm i -g nodemon"
+
+STARTING THE SERVER AND USING POSTMAN
+- With the postman desktop application installed, create a new workspace and enter the localhost information
+- In this case localhost:8080
+
+- Command prompt must be used to start the server
+  "node script.js"
+- Or nodemon can be used, which will watch the files
+  "nodemon script.js"
